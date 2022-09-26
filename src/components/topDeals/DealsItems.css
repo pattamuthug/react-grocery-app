@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.dealsItems{
+    background-color: red;
+    width: 200px;
+    /* height: 315px; */
+    margin-bottom: 20px;
+    position: relative;
+}
+/* .dealsItems span:nth-child(1){
+    position: absolute;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    border-radius: 30%;
+} */
+.dealsItems .dealsImage{
+    margin-top: 20px;
+}
+.dealsItems div:nth-child(2) img{
+
+}

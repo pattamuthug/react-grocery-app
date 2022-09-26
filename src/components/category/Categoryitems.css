@@ -1,0 +1,27 @@
+.categoryItems{
+    border-radius: 10px;
+    border: solid 2px black;
+    width: 180px;
+    background-color: blue;
+    height: 200px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 10px 5px rgba(95, 82, 82, 0.6); */
+}
+.categoryItems:hover{
+    transform: scale(1.07);
+}
+.categoryItems div:nth-child(1) img{
+    border-radius:10px 10px 10px 10px ;
+    width: 160px;
+    margin: 10px 25px 0px 8px;
+}
+.categoryItems div:nth-child(2) p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+}
+.categoryItems div:nth-child(1) img:hover{
+    transform: scale(1.05);
+}

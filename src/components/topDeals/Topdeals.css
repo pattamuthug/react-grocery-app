@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.tcontainer{
+    width: 95%;
+    margin: auto;
+}
+.tcontainer h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* .dealsWrapper{
+      border: solid 2px black;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+} */

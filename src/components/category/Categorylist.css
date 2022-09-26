@@ -1,0 +1,17 @@
+.ccontainer{
+    width: 90%;
+    margin: auto;
+    border: solid 2px black;
+}
+.categoryWrapper{
+    margin: 2% auto 0px auto;
+    border: solid 2px aqua;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ccontainer h2{
+    text-align: center;
+    margin-top: 20px;
+}
