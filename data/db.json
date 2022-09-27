@@ -1,0 +1,24 @@
+{
+    "fruits":[
+        {
+            
+                "id":1,
+                "name": "Saffola Gold Refined Oil",
+                "image": "refinedOil",
+                "value": "lt",
+                "qty": 1,
+                "price": 1310,
+                "offer": 31      
+        },
+        {
+            
+            "id":2,
+            "name": "Saffola Gold Refined Oil",
+            "image": "refinedOil",
+            "value": "lt",
+            "qty": 1,
+            "price": 1310,
+            "offer": 31      
+    }
+    ]
+}

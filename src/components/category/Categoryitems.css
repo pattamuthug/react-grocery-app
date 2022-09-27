@@ -1,18 +1,18 @@
 .categoryItems{
     border-radius: 10px;
-    border: solid 2px black;
+    border: solid 2px #20927f;
     width: 180px;
-    background-color: blue;
+    background-color: #1FC5A8;
     height: 200px;
     margin-bottom: 15px;
     box-sizing: border-box;
-    /* box-shadow: 0 0 10px 5px rgba(95, 82, 82, 0.6); */
 }
 .categoryItems:hover{
     transform: scale(1.07);
 }
 .categoryItems div:nth-child(1) img{
     border-radius:10px 10px 10px 10px ;
+    border: solid 2px #20927f;
     width: 160px;
     margin: 10px 25px 0px 8px;
 }

@@ -4,57 +4,92 @@
     box-sizing: border-box;
 }
 header{
-    background-color: aqua;
-    height: 70px;
-    border: solid 2px black;
+    background:linear-gradient(to right,#576182,#1FC5A8);
+    height: 100px;
+    position: relative;
+    /* border: solid 2px black; */
 }
 .container{
     width: 90%;
     margin: auto;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 .headerWrapper{
     padding-top: 20px;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
-
+.headerWrapper .logo {
+    display: flex;
+    cursor: pointer;
+}
+.headerWrapper .logo p{
+    color:white;
+    font-size: 40px;
+    font-weight: bold; 
+}
+.headerWrapper .logo span{
+    color:red;
+    margin-top: 11px;
+    font-size: 30px;
+    font-weight: bold; 
+}
 .navItems{
     margin-left: 25%;
     display: flex;
-    border: solid 2px black;
-    margin-top: -25px;
+    margin-top: -35px;
+    position: relative;
 }
 .navItems div:nth-child(1) {
-        display: flex;
-     
+        display: flex;    
+        position: absolute;
  }
 .navItems div:nth-child(1) input{
-   width: 300px;
-   height: 25px;
-    
+
+   width: 130px;
+   height: 30px;
+   border-radius: 7px 0px 0px 7px;
+   font-size: 16px;
+   border: solid 3px #ccc;
+   transition: width 0.4s ease-in-out;
+}
+.navItems div:nth-child(1) input:focus{
+    width: 300px;
 }
 .navItems div:nth-child(1) i{
-    background-color: blue;
+    background-color: #576182;
     border-radius: 0 5px 5px 0;
     color: white;
     width: 25px;
     padding: 5px;
-    height: 25px;
+    height: 29px;
+    cursor: pointer;
      
  }
 .navItems div:nth-child(2){
-      margin-left: 8%;
+      margin-left: 40%;
       
 }
 .navItems div:nth-child(2) a{
-        padding:30px;
+        text-decoration: none;
+        color: black;
+        padding:35px;
+        font-size: 18px;
+        font-weight: lighter;
+        cursor: pointer;
+}
+.navItems div:nth-child(2) a:hover{
+    color: white;
 }
 .navItems div:nth-child(2)+span {
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 .navItems div:nth-child(2)+span i{
     font-size: 30px;  
+    color: #165954;
+    cursor: pointer;
+}
+.navItems div:nth-child(2)+span i:hover{
     color: white;
 }
 .navItems div:nth-child(2)+span span{
@@ -73,12 +108,14 @@ header{
         display: none;
     }
     .navItems1{
+        background:linear-gradient(to right,#576182,#1FC5A8);
         margin-left: 0px;
         width: 100%;
         display: flex;
         flex-direction: column;
         position: relative;
         margin-top: 5%;
+        cursor: pointer;
     }
     .navItems1 div:nth-child(1){
         padding: 2px;
@@ -87,56 +124,58 @@ header{
     .navItems1 div:nth-child(1) input{
         width: 100%;
         height: 30px; 
-        border-radius: 8px 0px 0px 8px;  
+        border-radius: 8px 0px 0px 8px;
+        border: solid 3px #ccc;
+        font-size: 18px;  
      }
      .navItems1 div:nth-child(1) i{
-        background-color: blue;
+        background-color: #576182;
         color: white;
         width: 25px;
         padding: 5px;
         height: 30px;
-        /* border-radius: 0px 8px 8px 0px; */
         border-radius: 0 5px 5px 0;
          
      }
      .navItems1 div:nth-child(2){
-        background-color: blue;
         margin-left: 0;
         width: 100%;
-        color: white;
+     color: #576182;
         display: flex;
         flex-direction: column;
         text-align: center;
   }
-  .navItems1 div:nth-child(2) a:nth-child(1){
+  .navItems1 div:nth-child(2) a{
     border: solid 2px;
-    padding: 15px;  
+    padding: 15px;
+    font-size: 18px;   
+    font-weight: bold;
   }
-  .navItems1 div:nth-child(2) a:nth-child(2){
-    border: solid 2px;
-    padding: 15px;  
-  }
-  .navItems1 div:nth-child(2) a:nth-child(3){
-    border: solid 2px;
-    padding: 15px;  
+  .navItems1 div:nth-child(2) a:hover{
+        color: white;
+        
   }
   .navItems1 div:nth-child(2)+span {
     text-align: center; 
-    background-color: blue;
     margin-left: 0;
-    border: solid 2px white;  
+    border: solid 1px #576182;  
     
 }
-  .navItems1 div:nth-child(2)+span::before {
-           text-align: center;   
-    content: "addcart";
-    font-size: 15px;
-    color: white;
-
+.navItems1 div:nth-child(2)+span:hover{
+    border: solid 2px white;
 }
-
+  .navItems1 div:nth-child(2)+span::before {
+    text-align: center;   
+    content: "addcart";
+    font-size: 18px;
+    font-weight: bold;
+    color: #576182;
+}
+.navItems1 div:nth-child(2)+span::before:hover {
+        color: white;
+}
 .navItems1 div:nth-child(2)+span i{
-    color: salmon;
+    color: white;
     font-size: 27px;
     padding: 10px 1.5px 10px 10px;
     
@@ -154,8 +193,9 @@ header{
     position: absolute;
     display: block;
     color: brown;
+    cursor: pointer;
     font-size: 25px;
-    top: 20px;
+    top: 35px;
     right: 25px;
     }
 }

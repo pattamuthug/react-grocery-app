@@ -1,7 +1,11 @@
 import { useState } from "react";
+import { Routes, Route, Link} from "react-router-dom";
+import { useContext } from "react";
+import AddContext from "../../Context";
 import "./Header.css";
 
 function Header() {
+    const cartLength = useContext(AddContext).cart;
     const[navBar ,setNavbar]= useState("navItems")
     const barHandler=()=>{
         if (navBar=="navItems") {
@@ -16,7 +20,7 @@ function Header() {
             <div className="container">
                 <div className="headerWrapper">
                     <div className="logo">
-                        JioMart
+                        <p>Pearl</p><span>Mart</span>
                     </div>
 
                     <div className={navBar}>
@@ -26,13 +30,13 @@ function Header() {
 
                         </div>
                         <div>
-                            <a>Home</a>
-                            <a>login</a>
-                            <a>sign up</a>
+                            <Link to="/">Home</Link>
+                            <Link>login</Link>
+                            <Link>sign up</Link>
                         </div>
                         <span>
                             <i className="fa fa-cart-plus"></i>
-                            <span>0</span>
+                            <span>{cartLength.length}</span>
                         </span>
                        
                     </div>

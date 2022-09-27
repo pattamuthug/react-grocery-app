@@ -9,7 +9,7 @@ function DealsItems(props) {
                 <span>{props.offer}<span>%</span></span><br/>
                 <span>offer</span>
             </span>
-            <div>
+            <div className="dealsImage">
                 <img src={props.image}></img>
             </div>
 

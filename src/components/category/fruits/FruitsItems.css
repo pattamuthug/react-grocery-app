@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.fruitsItems{
+    background-color: red;
+    width: 200px;
+    /* height: 315px; */
+    /* margin-bottom: 20px; */
+    margin-left: 10px;
+    position: relative;
+}
+/* .fruitsItems span:nth-child(1){
+    position: absolute;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    border-radius: 30%;
+} */
+.fruitsItems .dealsImage{
+    margin-top: 20px;
+}
+.fruitsItems div:nth-child(2) img{
+
+}
