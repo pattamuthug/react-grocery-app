@@ -7,16 +7,15 @@ header{
     background:linear-gradient(to right,#576182,#1FC5A8);
     height: 100px;
     position: relative;
-    /* border: solid 2px black; */
 }
 .container{
     width: 90%;
     margin: auto;
-    /* border: solid 2px black; */
+   
 }
 .headerWrapper{
     padding-top: 20px;
-    /* border: solid 2px black; */
+
 }
 .headerWrapper .logo {
     display: flex;

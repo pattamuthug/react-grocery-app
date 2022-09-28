@@ -3,22 +3,111 @@
         {
             
                 "id":1,
-                "name": "Saffola Gold Refined Oil",
-                "image": "refinedOil",
-                "value": "lt",
+                "name": "Apple India",
+                "image": "https://www.jiomart.com/images/product/600x600/590004487/apple-indian-6-pcs-pack-approx-750-g-950-g-product-images-o590004487-p590004487-0-202203170227.jpg",
+                "value": "kg",
                 "qty": 1,
-                "price": 1310,
-                "offer": 31      
+                "price": 150,
+                "offer": 3      
         },
         {
             
             "id":2,
-            "name": "Saffola Gold Refined Oil",
-            "image": "refinedOil",
-            "value": "lt",
+            "name": "Cucumber",
+            "image": "https://www.jiomart.com/images/product/600x600/590003548/cucumber-500-g-product-images-o590003548-p590003548-0-202203152002.jpg",
+            "value": "kg",
             "qty": 1,
-            "price": 1310,
-            "offer": 31      
-    }
+            "price": 50,
+            "offer": 2      
+    },
+    {
+            
+        "id":3,
+        "name": "Watermelor Kiren",
+        "image": "https://www.jiomart.com/images/product/600x600/590001265/watermelon-kiran-1-pc-approx-2300-g-3000-g-product-images-o590001265-p590041413-0-202203142036.jpg",
+        "value": "kg",
+        "qty": 1,
+        "price": 120,
+        "offer": 4      
+},
+{
+            
+    "id":4,
+    "name": "Amla",
+    "image": "https://www.jiomart.com/images/product/600x600/590000126/amla-indian-gooseberry-500-g-product-images-o590000126-p590000126-0-202203170723.jpg",
+    "value": "g",
+    "qty": 250,
+    "price": 120,
+    "offer": 5      
+},
+{
+            
+    "id":5,
+    "name": "Orange",
+    "image": "https://www.jiomart.com/images/product/600x600/590000025/orange-imported-1-kg-product-images-o590000025-p590000025-0-202203171007.jpg",
+    "value": "g",
+    "qty": 1,
+    "price": 154,
+    "offer": 7      
+},
+{
+            
+    "id":6,
+    "name": "Dragonfruit",
+    "image": "https://www.jiomart.com/images/product/600x600/590007689/dragonfruit-per-pc-approx-280-g-450-g-product-images-o590007689-p590007689-0-202203170904.jpg",
+    "value": "g",
+    "qty": 250,
+    "price": 119,
+    "offer": 5      
+},
+{
+            
+    "id":7,
+    "name": "Pineapple Queen",
+    "image": "https://www.jiomart.com/images/product/600x600/590000070/pineapple-queen-1-pc-approx-700-g-1200-g-product-images-o590000070-p590000070-0-202203170357.jpg",
+    "value": "g",
+    "qty": 750,
+    "price": 89,
+    "offer": 5      
+},
+{
+            
+    "id":8,
+    "name": "Banana Yellaki",
+    "image": "https://www.jiomart.com/images/product/600x600/590001655/banana-yellaki-12-pcs-approx-750-g-1000-g-product-images-o590001655-p590041069-0-202203152123.jpg",
+    "value": "750 g",
+    "qty": 1,
+    "price": 109,
+    "offer": 3      
+},
+{
+            
+    "id":9,
+    "name": "Blue Berry Imported",
+    "image": "https://www.jiomart.com/images/product/600x600/590000849/blue-berry-imported-125-g-product-images-o590000849-p590707111-0-202203170351.jpg",
+    "value": "125 g",
+    "qty": 1,
+    "price": 219,
+    "offer": 5      
+},
+{         
+    "id":10,
+    "name": "Pomegranate Economy",
+    "image": "https://www.jiomart.com/images/product/600x600/590001268/pomegranate-economy-6-pcs-pack-product-images-o590001268-p590485022-0-202203150746.jpg",
+    "value": "125 g",
+    "qty": 1,
+    "price": 209,
+    "offer": 4      
+}],
+    "vegetables":[
+        {         
+            "id":11,
+            "name": "Pomegranate Economy",
+            "image": "https://www.jiomart.com/images/product/600x600/590001268/pomegranate-economy-6-pcs-pack-product-images-o590001268-p590485022-0-202203150746.jpg",
+            "value": "125 g",
+            "qty": 1,
+            "price": 209,
+            "offer": 4      
+        }
     ]
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Routes, Route, Link} from "react-router-dom";
+import { Routes, Route, Link,useNavigate} from "react-router-dom";
 import { useContext } from "react";
 import AddContext from "../../Context";
 import "./Header.css";
@@ -7,6 +7,7 @@ import "./Header.css";
 function Header() {
     const cartLength = useContext(AddContext).cart;
     const[navBar ,setNavbar]= useState("navItems")
+    const addCartto = useNavigate()
     const barHandler=()=>{
         if (navBar=="navItems") {
             setNavbar("navItems1")
@@ -14,6 +15,9 @@ function Header() {
         else{
             setNavbar("navItems")
         }
+    }
+    const cartHandler=()=>{
+            addCartto("/addcart")
     }
     return (<>
         <header>
@@ -35,7 +39,7 @@ function Header() {
                             <Link>sign up</Link>
                         </div>
                         <span>
-                            <i className="fa fa-cart-plus"></i>
+                            <i className="fa fa-cart-plus" onClick={cartHandler}></i>
                             <span>{cartLength.length}</span>
                         </span>
                        

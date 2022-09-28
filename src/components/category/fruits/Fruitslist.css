@@ -1,4 +1,34 @@
-.fruitsWrapper{
-    display: flex;
-    
+*{
+    box-sizing: border-box;
 }
+.fcontainer{
+    width: 90%;
+    margin: auto;
+}
+.fruitsWrapper .fruitssort{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.fruitsWrapper .fruitssort p{
+    margin-left: 30%;
+}
+.fruitsWrapper .fruitssort button{
+    margin-left: 3%;
+    height: 20px;
+    width: 120px;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 3px;
+}
+.fruitsWrapper .fruitssort button:hover{
+        color: blue;
+        border: solid 2px blue;
+}
+
+.fruitsWrapper div:nth-child(2){
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+} 
