@@ -5,7 +5,7 @@
                 "id":1,
                 "name": "Apple India",
                 "image": "https://www.jiomart.com/images/product/600x600/590004487/apple-indian-6-pcs-pack-approx-750-g-950-g-product-images-o590004487-p590004487-0-202203170227.jpg",
-                "value": "kg",
+                "value": "1 kg",
                 "qty": 1,
                 "price": 150,
                 "offer": 3      
@@ -15,7 +15,7 @@
             "id":2,
             "name": "Cucumber",
             "image": "https://www.jiomart.com/images/product/600x600/590003548/cucumber-500-g-product-images-o590003548-p590003548-0-202203152002.jpg",
-            "value": "kg",
+            "value": "1 kg",
             "qty": 1,
             "price": 50,
             "offer": 2      
@@ -25,7 +25,7 @@
         "id":3,
         "name": "Watermelor Kiren",
         "image": "https://www.jiomart.com/images/product/600x600/590001265/watermelon-kiran-1-pc-approx-2300-g-3000-g-product-images-o590001265-p590041413-0-202203142036.jpg",
-        "value": "kg",
+        "value": "1 kg",
         "qty": 1,
         "price": 120,
         "offer": 4      
@@ -35,7 +35,7 @@
     "id":4,
     "name": "Amla",
     "image": "https://www.jiomart.com/images/product/600x600/590000126/amla-indian-gooseberry-500-g-product-images-o590000126-p590000126-0-202203170723.jpg",
-    "value": "g",
+    "value": "250 g",
     "qty": 250,
     "price": 120,
     "offer": 5      
@@ -45,7 +45,7 @@
     "id":5,
     "name": "Orange",
     "image": "https://www.jiomart.com/images/product/600x600/590000025/orange-imported-1-kg-product-images-o590000025-p590000025-0-202203171007.jpg",
-    "value": "g",
+    "value": "1 g",
     "qty": 1,
     "price": 154,
     "offer": 7      
@@ -55,7 +55,7 @@
     "id":6,
     "name": "Dragonfruit",
     "image": "https://www.jiomart.com/images/product/600x600/590007689/dragonfruit-per-pc-approx-280-g-450-g-product-images-o590007689-p590007689-0-202203170904.jpg",
-    "value": "g",
+    "value": "250 g",
     "qty": 250,
     "price": 119,
     "offer": 5      
@@ -65,7 +65,7 @@
     "id":7,
     "name": "Pineapple Queen",
     "image": "https://www.jiomart.com/images/product/600x600/590000070/pineapple-queen-1-pc-approx-700-g-1200-g-product-images-o590000070-p590000070-0-202203170357.jpg",
-    "value": "g",
+    "value": "750 g",
     "qty": 750,
     "price": 89,
     "offer": 5      
@@ -102,12 +102,185 @@
     "vegetables":[
         {         
             "id":11,
-            "name": "Pomegranate Economy",
-            "image": "https://www.jiomart.com/images/product/600x600/590001268/pomegranate-economy-6-pcs-pack-product-images-o590001268-p590485022-0-202203150746.jpg",
-            "value": "125 g",
+            "name": "Bitter Gourd",
+            "image": "https://www.jiomart.com/images/product/600x600/590003541/bitter-gourd-500-g-product-images-o590003541-p590003541-0-202203170608.jpg",
+            "value": "500 g",
             "qty": 1,
-            "price": 209,
+            "price": 39,
+            "offer": 2      
+        },
+        {         
+            "id":12,
+            "name": "Brinjal Purple",
+            "image": "https://www.jiomart.com/images/product/600x600/590004102/brinjal-purple-striped-500-g-product-images-o590004102-p590004102-0-202203150748.jpg",
+            "value": "500 g",
+            "qty": 1,
+            "price": 39,
             "offer": 4      
+        },
+        {         
+            "id":13,
+            "name": "Tomato",
+            "image": "https://www.jiomart.com/images/product/600x600/590003517/tomato-1-kg-product-images-o590003517-p590003517-0-202203170629.jpg",
+            "value": "1 kg",
+            "qty": 1,
+            "price": 40,
+            "offer": 9      
+        },
+        {         
+            "id":14,
+            "name": "Onion",
+            "image": "https://www.jiomart.com/images/product/600x600/590002136/onion-5-kg-pack-product-images-o590002136-p590002136-0-202203141906.jpg",
+            "value": "5 kg",
+            "qty": 1,
+            "price": 105,
+            "offer": 9      
+        },
+        {         
+            "id":15,
+            "name": "Potato",
+            "image": "https://www.jiomart.com/images/product/600x600/590003516/potato-per-kg-product-images-o590003516-p590003516-0-202203170642.jpg",
+            "value": "1 kg",
+            "qty": 1,
+            "price": 30,
+            "offer": 3      
+        },
+        {         
+            "id":16,
+            "name": "Ginger Indian",
+            "image": "https://www.jiomart.com/images/product/600x600/590003531/ginger-indian-200-g-product-images-o590003531-p590003531-0-202203171030.jpg",
+            "value": "200 g",
+            "qty": 1,
+            "price": 24,
+            "offer": 3      
+        },
+        {         
+            "id":17,
+            "name": "Green Chilli",
+            "image": "https://www.jiomart.com/images/product/600x600/590003533/green-chilli-200-g-product-images-o590003533-p590003533-0-202203150435.jpg",
+            "value": "200 g",
+            "qty": 1,
+            "price": 18,
+            "offer": 1      
+        },
+        {         
+            "id":18,
+            "name": "Local Beans",
+            "image": "https://www.jiomart.com/images/product/600x600/590003668/local-beans-500-g-product-images-o590003668-p590003668-0-202203170459.jpg",
+            "value": "500 g",
+            "qty": 1,
+            "price": 64,
+            "offer": 2      
+        },
+        {         
+            "id":19,
+            "name": "Pumpkin Whole",
+            "image": "https://www.jiomart.com/images/product/600x600/590001278/pumpkin-whole-per-pc-approx-900-g-1200-g-product-images-o590001278-p590049202-0-202203170955.jpg",
+            "value": "200 g",
+            "qty": 1,
+            "price": 18,
+            "offer": 1      
+        },
+        {         
+            "id":20,
+            "name": "Cabbage",
+            "image": "https://www.jiomart.com/images/product/600x600/590003538/cabbage-per-pc-approx-600-g-1000-g-product-images-o590003538-p590003538-0-202203170436.jpg",
+            "value": "600 g",
+            "qty": 1,
+            "price": 35,
+            "offer": 3      
+        }
+    ],
+    "snacks":[
+        {         
+            "id":21,
+            "name": "Onion Potato Chips",
+            "image": "https://www.jiomart.com/images/product/600x600/491696354/lay-s-american-style-cream-onion-potato-chips-104-g-product-images-o491696354-p590121272-0-202209221938.jpg",
+            "value": "104 g",
+            "qty": 1,
+            "price": 50,
+            "offer": 34      
+        },
+        {         
+            "id":22,
+            "name": "Kurkure Masala Munch",
+            "image": "https://www.jiomart.com/images/product/600x600/490003816/kurkure-masala-munch-90-g-product-images-o490003816-p490003816-0-202203171131.jpg",
+            "value": "81 g",
+            "qty": 1,
+            "price": 20,
+            "offer": 10      
+        },
+        {         
+            "id":23,
+            "name": "Bikaji Tana Bana Meetha ",
+            "image": "https://www.jiomart.com/images/product/original/491695214/bikaji-tana-bana-khatta-meetha-1-kg-product-images-o491695214-p491695214-0-202203171026.jpg",
+            "value": "1 kg",
+            "qty": 1,
+            "price": 350,
+            "offer": 50      
+        },
+        {         
+            "id":24,
+            "name": "Pringles Onion Potato Chips",
+            "image": "https://www.jiomart.com/images/product/original/491129205/pringles-sour-cream-and-onion-potato-chips-107-g-product-images-o491129205-p590032696-0-202203170557.jpg",
+            "value": "107 g",
+            "qty": 1,
+            "price": 115,
+            "offer": 22      
+        },
+        {         
+            "id":25,
+            "name": "Lal Besan Laddoo",
+            "image": "https://www.jiomart.com/images/product/original/491417087/lal-regular-besan-laddoo-200-g-product-images-o491417087-p491417087-0-202203150240.jpg",
+            "value": "200 g",
+            "qty": 1,
+            "price": 130,
+            "offer": 50      
+        },
+        {         
+            "id":26,
+            "name": "Samrat Tam Tam",
+            "image": "https://www.jiomart.com/images/product/original/490025495/samrat-tam-tam-60-g-product-images-o490025495-p590124567-0-202203171039.jpg",
+            "value": "45 g",
+            "qty": 1,
+            "price": 10,
+            "offer": 2      
+        },
+        {         
+            "id":27,
+            "name": "Paper Boat Peanut Chikki",
+            "image": "https://www.jiomart.com/images/product/original/491538539/paper-boat-peanut-chikki-96-g-family-pack-product-images-o491538539-p491538539-0-202203170958.jpg",
+            "value": "800 g",
+            "qty": 1,
+            "price": 448,
+            "offer": 32      
+        },
+        {         
+            "id":28,
+            "name": "Parle-G Biscuits",
+            "image": "https://www.jiomart.com/images/product/600x600/490008739/parle-g-original-glucose-biscuits-800-g-product-images-o490008739-p490008739-0-202203170454.jpg",
+            "value": "800 g",
+            "qty": 1,
+            "price": 85,
+            "offer": 10      
+        },
+        {         
+            "id":29,
+            "name": "Cadbury Oreo Biscuits",
+            "image": "https://www.jiomart.com/images/product/600x600/491696496/cadbury-oreo-original-chocolatey-sandwich-biscuits-jumbo-pack-500-g-product-images-o491696496-p590110608-0-202203170406.jpg",
+            "value": "500 g",
+            "qty": 1,
+            "price": 145,
+            "offer": 34      
+        },
+        {         
+            "id":30,
+            "name": "Kit Kat Share Bag",
+            "image": "https://www.jiomart.com/images/product/600x600/491011052/kit-kat-wafer-chocolates-18-g-7-pcs-product-images-o491011052-p491011052-0-202203151401.jpg",
+            "value": "18 g",
+            "qty": 1,
+            "price": 100,
+            "offer": 30      
         }
     ]
 }

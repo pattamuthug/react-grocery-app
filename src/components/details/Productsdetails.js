@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-function Fooddetails() {
+function Productdetails() {
     const[foodDetails, setDetails]=useState([])
     const params = useParams();
     // console.log(params.id);
@@ -32,4 +32,4 @@ function Fooddetails() {
         </div>
      </>)
 };
-export default Fooddetails;
+export default Productdetails;

@@ -1,8 +1,8 @@
 .categoryItems{
     border-radius: 10px;
-    border: solid 2px #20927f;
+    border: solid 2px #576182;
     width: 180px;
-    background-color: #1FC5A8;
+    background-color: #576182;
     height: 200px;
     margin-bottom: 15px;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
 }
 .categoryItems div:nth-child(1) img{
     border-radius:10px 10px 10px 10px ;
-    border: solid 2px #20927f;
+    border: solid 2px #576182;
     width: 160px;
     margin: 10px 25px 0px 8px;
 }

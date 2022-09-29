@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.productsItems{
+    /* background-color: red; */
+    border: solid  0.5px rgb(120, 184, 184);
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+}
+.productsItems .offer{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 6px;
+    border: rgb(232, 5, 5) 2px;
+    background-color: rgb(232, 5, 5);
+    color: white;
+    width: 45px;
+    height: 45px;
+    z-index: 2;
+    /* line-height: 13px; */
+    
+}
+.offer span:nth-child(1){
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.offer span:nth-child(2){
+      font-size: 13px;
+}
+.offer .offertag{
+    margin-left: 13px;
+    font-size: 13px;
+}
+.productsItems .dealsImage{
+    width: 210px;
+    height: 170px;
+    margin-top: 20px;
+    /* border: solid 2px black; */
+    margin-left: 7.5%;
+}
+.productsItems .dealsImage img{
+    width: 100%;
+    height: 100%;
+    /* border: solid 2px black; */
+}
+.productsItems .dealsImage img:hover{
+    transform: scale(1.05);
+}
+.productsItems .content{
+    /* border: solid 2px black; */
+    padding-left: 35px;
+    margin-top: 10px;
+}
+.productsItems .content span:nth-child(1){
+    font-weight: 600;
+
+}
+.productsItems .content span:nth-child(3){
+    font-weight: 600;
+}
+.content p:nth-last-child(3){
+    padding-top: 7px;
+   font-weight: bold;
+   font-size: 18px;
+}
+.content p:nth-last-child(2){
+   font-size: 14px;
+}
+.content p:nth-last-child(1){
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 161, 0);
+ }
+ .productsItems .cartBtn div{
+    /* margin-top: 10px; */
+    width: 230px;
+    margin: 10px 10px 10px 8px;
+    /* border: solid 2px red; */
+    border-radius: 5px;
+    background-color: #1FC5A8;
+  
+ }
+.productsItems .cartBtn div:nth-child(1) button{
+     border: none;
+     background-color: #1FC5A8;
+    outline: none; 
+     width: 140px;
+     color: white;
+    /* padding-right: 100px; */
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+    /* padding-left: 9%; */
+    padding-bottom: 6px;
+    text-align:center;
+}
+.productsItems .cartBtn p{
+    color: #1FC5A8;
+    font-weight: 700;
+    margin-top: 13px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.productsItems .cartBtn div:nth-child(1) span{
+    font-size: 18px;
+    margin-left: 14px;
+    position: absolute;
+    background-color: #4ed1bb;
+    z-index: 2;
+    color: white;
+    /* border: solid 1px red; */
+    border-radius: 50%;
+    padding: 0px 4px 1px 4px;
+    font-weight: 700;
+}

@@ -26,11 +26,7 @@ return(<><div>
     
         
                   <div><button onClick={()=>{
-                     if(count==1){
                         setCount(count+1)
-                    }
-                        // setCount(count+1)
-                        
                      }}>+</button> <p>{count}</p>
                      <button onClick={()=>{
                          if(count>1){

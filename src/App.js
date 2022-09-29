@@ -2,9 +2,9 @@ import './App.css';
 import Header from './components/header/Header';
 import Categorylist from './components/category/Categorylist';
 // import Topdeals from './components/topDeals/Topdeals';
-import Fruitslist from './components/category/fruits/Fruitslist';
+import Productlist from './components/category/products/Productlist';
 import Cartholder from './components/addCarts/Cartholder';
-import Fooddetails from './components/details/Fruitsdetails';
+// import Fooddetails from './components/details/productsdetails';
 import React,{useEffect, useState } from 'react';
 import { Routes, Route, Link} from "react-router-dom";
 import AddContext from './Context';
@@ -25,9 +25,9 @@ import AddContext from './Context';
        <Header></Header>
       <Routes>
         <Route index element={<Categorylist></Categorylist>}></Route>
-        <Route path='/fruits' element={<Fruitslist/>}></Route>
+        <Route path='/:category' element={<Productlist/>}></Route>
         <Route path='addcart' element={<Cartholder/>}></Route>
-        <Route path='fruits/:id' element={<Fooddetails></Fooddetails>}></Route>
+        {/* <Route path='products/:id' element={<Fooddetails></Fooddetails>}></Route> */}
       </Routes>
      
       

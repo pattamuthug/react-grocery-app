@@ -1,16 +1,17 @@
 import { useEffect, useState } from "react";
-import "./FruitsItems.css";
+import "./ProductItems.css";
 import {useNavigate} from "react-router-dom";
 import { useContext } from "react";
 import AddContext from "../../../Context";
 
-function FruitsItems(props) {
+function ProdcutItems(props) {
     const [cartBtn,setCartbtn]=useState(true);
     const cart = useContext(AddContext);
-    const fruitsTo = useNavigate();
+    const productsTo = useNavigate();
     // const[qty,setQty]=useState(0);
-    const originalPrice = (props.offer / 100) * (props.price)
-    const save = (props.price) - (originalPrice)
+    const  save = (props.offer / 100) * (props.price);
+           const saveround = Math.round(save);
+    const offerprice = (props.price) - (saveround)
 
     const cartHandler=(event)=>{
         event.preventDefault()
@@ -26,29 +27,30 @@ function FruitsItems(props) {
     //     }
     //     cart.setQty(qty)
     // },[qty])
-    const fruitsHandler=()=>{
-        fruitsTo(`${props.id}`)
+    const productsHandler=()=>{
+        productsTo(`${props.id}`)
     }
     return (<>
-        <div className="fruitsItems">
+        <div className="productsItems">
 
-            <span>
-                <span>{props.offer}<span>%</span></span><br/>
-                <span>offer</span>
+            <span className="offer">
+                <span>{props.offer}</span><span>%</span><br/>
+                <p className="offertag">off</p>
             </span>
             <div className="dealsImage">
                 <img src={props.image}></img>
             </div>
 
-            <div>
-                <h4 onClick={fruitsHandler}>{props.name}</h4><span>{props.qty}</span>
-                <h3>{save}</h3>
-                <p>M.R.P:<s>₹{props.price}</s></p>
-                <p>Save ₹{originalPrice}</p>
+            <div className="content">
+                <span onClick={productsHandler}>{props.name}</span><span> </span><span>{props.value}</span>
+                <p>₹ {offerprice}.00</p>
+               <p>M.R.P: <s>₹{props.price}.00</s></p>
+                {/* <p>M.R.P: <s>₹{props.price}</s></p> */}
+                <p>Save: ₹{saveround}.00</p>
             </div>
-            <div>
+            <div className="cartBtn">
                 {
-                    cartBtn==true ? <button onClick={cartHandler}>Add to Cart</button>: <p>added to the cart</p>
+                    cartBtn==true ? <div onClick={cartHandler}><button>Add to Cart</button><span>+</span></div>: <p>Added to the Cart</p>
                     //  <div><button onClick={()=>{
                     //     setQty(qty+1)
                         
@@ -66,4 +68,4 @@ function FruitsItems(props) {
        
         </>)
 }
-export default FruitsItems;
+export default  ProdcutItems;
