@@ -19,6 +19,7 @@
 .categoryItems div:nth-child(2) p{
     text-align: center;
     color: white;
+    font-weight: 600;
     margin-top: 20px;
 
 }

@@ -1,0 +1,9 @@
+.cartWrapper .cartTitle{
+    margin-top:20px;
+    margin-left:20%;
+    font-weight:700;
+    font-size:25px;
+}
+.cartWrapper .cartitem{
+    margin-top: 3%;
+}

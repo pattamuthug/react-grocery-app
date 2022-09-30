@@ -19,6 +19,22 @@ function Fruitslist() {
             })
             
     }, []);
+    const ascenOrder=(event)=>{
+        event.preventDefault();
+        // const ascenArr = productsList.sort((a,b)=>{
+        //     return (a.offer - b.offer);
+        // });
+        setFruitslist(...(productsList.sort((a,b)=>{
+            return (a.offer - b.offer);
+        })) );
+    } 
+    const descenOrder=(event)=>{
+        event.preventDefault()
+        const descenArr = productsList.sort((a,b)=>{
+            return (b.offer - a.offer);
+        });
+        setFruitslist(...descenArr);
+    } 
    
     
 
@@ -29,13 +45,13 @@ function Fruitslist() {
                     <div className="productssort">
                         <h1>{cateparams.category}</h1>
                         <p>sort by:</p>
-                        <button>Low to High</button>
-                        <button>High to Low</button>
+                        <button onClick={ascenOrder}>Low to High</button>
+                        <button onClick={descenOrder}>High to Low</button>
                     </div>
                     <div className="productsitem">
                     {
                         productsList.map((items)=>{
-                            return <ProductItems key={items.id} id={items.id} items={items} name={items.name} image={items.image} price={items.price} offer={items.offer} value={items.value}></ProductItems>
+                            return <ProductItems key={items.id} id={items.id} items={items} name={items.name} image={items.image} price={items.price} offer={items.offer} value={items.value} category={items.category}></ProductItems>
                         })
                     }
                     </div>

@@ -1,11 +1,16 @@
 import { useState } from "react";
 import { Routes, Route, Link,useNavigate} from "react-router-dom";
+import {useSelector} from 'react-redux';
+import {selectUser} from '../../features/userslice';
 import { useContext } from "react";
 import AddContext from "../../Context";
 import "./Header.css";
 
 function Header() {
+    const parent = useSelector(selectUser)
     const cartLength = useContext(AddContext).cart;
+    // const first = parent.name.split("");
+    // console.log(first);
     const[navBar ,setNavbar]= useState("navItems")
     const addCartto = useNavigate()
     const barHandler=()=>{
@@ -16,9 +21,17 @@ function Header() {
             setNavbar("navItems")
         }
     }
+
     const cartHandler=()=>{
+        if (parent.login==true) {
             addCartto("/addcart")
+        }else{
+            alert("Please Login")
+            addCartto("/login")
+        }
+            
     }
+    
     return (<>
         <header>
             <div className="container">
@@ -35,8 +48,11 @@ function Header() {
                         </div>
                         <div>
                             <Link to="/">Home</Link>
-                            <Link>login</Link>
-                            <Link>sign up</Link>
+                            {
+                            parent.login==true ?  <Link to="/login">logout</Link>: <Link to="/login">login</Link>
+                            }
+                           
+                            <span>p</span>
                         </div>
                         <span>
                             <i className="fa fa-cart-plus" onClick={cartHandler}></i>

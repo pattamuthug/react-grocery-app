@@ -20,11 +20,12 @@
 }
 .productsWrapper .productssort button{
     margin-left: 3%;
-    height: 20px;
+    padding: 4px 0px 4px 0px;
+    /* height: 20px; */
     width: 120px;
     font-size: 12px;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .productsWrapper .productssort button:hover{
         color: blue;

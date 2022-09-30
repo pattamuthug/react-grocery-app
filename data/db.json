@@ -8,7 +8,8 @@
                 "value": "1 kg",
                 "qty": 1,
                 "price": 150,
-                "offer": 3      
+                "offer": 3,
+                "category": "fruits"      
         },
         {
             
@@ -18,7 +19,8 @@
             "value": "1 kg",
             "qty": 1,
             "price": 50,
-            "offer": 2      
+            "offer": 2,
+            "category": "fruits"      
     },
     {
             
@@ -28,7 +30,8 @@
         "value": "1 kg",
         "qty": 1,
         "price": 120,
-        "offer": 4      
+        "offer": 4,
+        "category": "fruits"      
 },
 {
             
@@ -38,7 +41,8 @@
     "value": "250 g",
     "qty": 250,
     "price": 120,
-    "offer": 5      
+    "offer": 5,
+    "category": "fruits"      
 },
 {
             
@@ -48,7 +52,8 @@
     "value": "1 g",
     "qty": 1,
     "price": 154,
-    "offer": 7      
+    "offer": 7,
+    "category": "fruits"      
 },
 {
             
@@ -58,7 +63,8 @@
     "value": "250 g",
     "qty": 250,
     "price": 119,
-    "offer": 5      
+    "offer": 5,
+    "category": "fruits"      
 },
 {
             
@@ -68,7 +74,8 @@
     "value": "750 g",
     "qty": 750,
     "price": 89,
-    "offer": 5      
+    "offer": 5,
+    "category": "fruits"      
 },
 {
             
@@ -78,7 +85,8 @@
     "value": "750 g",
     "qty": 1,
     "price": 109,
-    "offer": 3      
+    "offer": 3,
+    "category": "fruits"      
 },
 {
             
@@ -88,7 +96,8 @@
     "value": "125 g",
     "qty": 1,
     "price": 219,
-    "offer": 5      
+    "offer": 5,
+    "category": "fruits"      
 },
 {         
     "id":10,
@@ -97,7 +106,8 @@
     "value": "125 g",
     "qty": 1,
     "price": 209,
-    "offer": 4      
+    "offer": 4,
+    "category": "fruits"      
 }],
     "vegetables":[
         {         
@@ -107,7 +117,8 @@
             "value": "500 g",
             "qty": 1,
             "price": 39,
-            "offer": 2      
+            "offer": 2,
+            "category": "vegetables"      
         },
         {         
             "id":12,
@@ -116,7 +127,8 @@
             "value": "500 g",
             "qty": 1,
             "price": 39,
-            "offer": 4      
+            "offer": 4,
+            "category": "vegetables"      
         },
         {         
             "id":13,
@@ -125,7 +137,8 @@
             "value": "1 kg",
             "qty": 1,
             "price": 40,
-            "offer": 9      
+            "offer": 9,
+            "category": "vegetables"      
         },
         {         
             "id":14,
@@ -134,7 +147,8 @@
             "value": "5 kg",
             "qty": 1,
             "price": 105,
-            "offer": 9      
+            "offer": 9,
+            "category": "vegetables"      
         },
         {         
             "id":15,
@@ -143,7 +157,8 @@
             "value": "1 kg",
             "qty": 1,
             "price": 30,
-            "offer": 3      
+            "offer": 3,
+            "category": "vegetables"      
         },
         {         
             "id":16,
@@ -152,7 +167,8 @@
             "value": "200 g",
             "qty": 1,
             "price": 24,
-            "offer": 3      
+            "offer": 3,
+            "category": "vegetables"      
         },
         {         
             "id":17,
@@ -161,7 +177,8 @@
             "value": "200 g",
             "qty": 1,
             "price": 18,
-            "offer": 1      
+            "offer": 1,
+            "category": "vegetables"      
         },
         {         
             "id":18,
@@ -170,7 +187,8 @@
             "value": "500 g",
             "qty": 1,
             "price": 64,
-            "offer": 2      
+            "offer": 2,
+            "category": "vegetables"      
         },
         {         
             "id":19,
@@ -179,7 +197,8 @@
             "value": "200 g",
             "qty": 1,
             "price": 18,
-            "offer": 1      
+            "offer": 1,
+            "category": "vegetables"      
         },
         {         
             "id":20,
@@ -188,7 +207,8 @@
             "value": "600 g",
             "qty": 1,
             "price": 35,
-            "offer": 3      
+            "offer": 3,
+            "category": "vegetables"      
         }
     ],
     "snacks":[
@@ -199,7 +219,8 @@
             "value": "104 g",
             "qty": 1,
             "price": 50,
-            "offer": 34      
+            "offer": 34,
+            "category": "snacks"      
         },
         {         
             "id":22,
@@ -208,7 +229,8 @@
             "value": "81 g",
             "qty": 1,
             "price": 20,
-            "offer": 10      
+            "offer": 10,
+            "category": "snacks"      
         },
         {         
             "id":23,
@@ -217,7 +239,8 @@
             "value": "1 kg",
             "qty": 1,
             "price": 350,
-            "offer": 50      
+            "offer": 50,
+            "category": "snacks"      
         },
         {         
             "id":24,
@@ -226,7 +249,8 @@
             "value": "107 g",
             "qty": 1,
             "price": 115,
-            "offer": 22      
+            "offer": 22,
+            "category": "snacks"      
         },
         {         
             "id":25,
@@ -235,7 +259,8 @@
             "value": "200 g",
             "qty": 1,
             "price": 130,
-            "offer": 50      
+            "offer": 50,
+            "category": "snacks"      
         },
         {         
             "id":26,
@@ -244,7 +269,8 @@
             "value": "45 g",
             "qty": 1,
             "price": 10,
-            "offer": 2      
+            "offer": 2,
+            "category": "snacks"      
         },
         {         
             "id":27,
@@ -253,7 +279,8 @@
             "value": "800 g",
             "qty": 1,
             "price": 448,
-            "offer": 32      
+            "offer": 32,
+            "category": "snacks"      
         },
         {         
             "id":28,
@@ -262,7 +289,8 @@
             "value": "800 g",
             "qty": 1,
             "price": 85,
-            "offer": 10      
+            "offer": 10,
+            "category": "snacks"      
         },
         {         
             "id":29,
@@ -271,7 +299,8 @@
             "value": "500 g",
             "qty": 1,
             "price": 145,
-            "offer": 34      
+            "offer": 34,
+            "category": "snacks"      
         },
         {         
             "id":30,
@@ -280,7 +309,109 @@
             "value": "18 g",
             "qty": 1,
             "price": 100,
-            "offer": 30      
+            "offer": 30,
+            "category": "snacks"      
+        }
+    ],
+    "spices":[
+        {         
+            "id":31,
+            "name": "Everest Chilli Powder",
+            "image": "https://www.jiomart.com/images/product/600x600/490000109/everest-tikhalal-chilli-powder-100-g-product-images-o490000109-p490000109-0-202203151655.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 58,
+            "offer": 20,
+            "category": "spices"      
+        },
+        {         
+            "id":32,
+            "name": "Good Life Turmeric Powder",
+            "image": "https://www.jiomart.com/images/product/600x600/491185048/good-life-turmeric-powder-100-g-product-images-o491185048-p491185048-0-202203150758.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 44,
+            "offer": 50,
+            "category": "spices"      
+        },
+        {         
+            "id":33,
+            "name": "Good Life Coriander Powder",
+            "image": "https://www.jiomart.com/images/product/600x600/491185047/good-life-coriander-powder-100-g-product-images-o491185047-p491185047-0-202203170339.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 46,
+            "offer": 50,
+            "category": "spices"      
+        },
+        {         
+            "id":34,
+            "name": "Good Life Jeera",
+            "image": "https://www.jiomart.com/images/product/600x600/491185109/good-life-jeera-100-g-product-images-o491185109-p491185109-0-202207070147.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 86,
+            "offer": 50,
+            "category": "spices"      
+        },
+        {         
+            "id":35,
+            "name": "Good Life Chilli Powder",
+            "image": "https://www.jiomart.com/images/product/600x600/491185046/good-life-chilli-powder-100-g-product-images-o491185046-p491185046-0-202203171015.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 70,
+            "offer": 50,
+            "category": "spices"      
+        },
+        {         
+            "id":36,
+            "name": "Good Life Big Mustard",
+            "image": "https://www.jiomart.com/images/product/600x600/491185141/good-life-big-mustard-100-g-product-images-o491185141-p491185141-0-202203142214.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 32,
+            "offer": 50,
+            "category": "spices"      
+        },
+        {         
+            "id":37,
+            "name": "Good Life Cloves",
+            "image": "https://www.jiomart.com/images/product/600x600/491185126/good-life-cloves-50-g-product-images-o491185126-p491185126-0-202206021943.jpg",
+            "value": "50 g",
+            "qty": 1,
+            "price": 69,
+            "offer": 7,
+            "category": "spices"      
+        },
+        {         
+            "id":38,
+            "name": "Good Life Cassia Bark",
+            "image": "https://www.jiomart.com/images/product/600x600/491185115/good-life-cassia-bark-50-g-product-images-o491185115-p491185115-0-202203142214.jpg",
+            "value": "50 g",
+            "qty": 1,
+            "price": 59,
+            "offer": 8,
+            "category": "spices"      
+        }, {         
+            "id":39,
+            "name": "Navjeevan Tej Patta",
+            "image": "https://www.jiomart.com/images/product/600x600/492340297/navjeevan-tej-patta-100-g-product-images-o492340297-p590369952-0-202203141903.jpg",
+            "value": "100 g",
+            "qty": 1,
+            "price": 40,
+            "offer": 35,
+            "category": "spices"      
+        },
+        {         
+            "id":40,
+            "name": "Navjeevan Oregano",
+            "image": "https://www.jiomart.com/images/product/600x600/492340354/navjeevan-oregano-50-g-product-images-o492340354-p590707026-0-202203150707.jpg",
+            "value": "50 g",
+            "qty": 1,
+            "price": 20,
+            "offer": 35,
+            "category": "spices"      
         }
     ]
 }

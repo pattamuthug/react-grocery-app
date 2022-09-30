@@ -4,9 +4,9 @@ import { useParams } from "react-router-dom";
 function Productdetails() {
     const[foodDetails, setDetails]=useState([])
     const params = useParams();
-    // console.log(params.id);
+
     useEffect(()=>{
-        fetch('http://localhost:3000/fruits/'+params.id).then((response)=>{
+        fetch('http://localhost:3000/'+params.details+"/"+params.id).then((response)=>{
             if (response.ok) {
                 return response.json()
             } else {

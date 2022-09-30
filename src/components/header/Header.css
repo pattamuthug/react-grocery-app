@@ -72,15 +72,29 @@ header{
         text-decoration: none;
         color: black;
         padding:35px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: lighter;
         cursor: pointer;
+}
+.navItems div:nth-child(2) span{
+    text-transform: uppercase;
+    margin-left: 20%;
+    padding:5px 14px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50%;
+    border: solid 1px;
+}
+.navItems div:nth-child(2) span:hover{
+    color: white;
+    border:solid 1px white;
 }
 .navItems div:nth-child(2) a:hover{
     color: white;
 }
 .navItems div:nth-child(2)+span {
-    margin-left: 35px;
+    margin-left: 18%;
 }
 
 .navItems div:nth-child(2)+span i{
