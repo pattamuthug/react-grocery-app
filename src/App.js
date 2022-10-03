@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import Categorylist from './components/category/Categorylist';
 import Productlist from './components/category/products/Productlist';
 import Cartholder from './components/addCarts/Cartholder';
-import Productdetails from './components/details/Productsdetails';
+import Productdetails from './components/description/Productsdetails';
 import React,{useEffect, useState } from 'react';
 import { Routes, Route, Link} from "react-router-dom";
 import AddContext from './Context';
@@ -17,6 +17,19 @@ import Login from './components/login/login';
         return[item,...preitems]
       })
     }
+
+    function remove(name){
+      let newArr = []
+      let index = 0
+      for(let i = 0; i<cart.length;i++){
+          if(cart[i].name != name){
+              newArr[index] = cart[i]
+              index++
+          }
+      }
+      setCart(newArr)
+     
+  }
     const [fruit, setFruit] = useState([]);
     const [veg, setVeg] = useState([]);
     const [snacks, setSnacks] = useState([]);
@@ -47,7 +60,7 @@ import Login from './components/login/login';
 
   return (
     <div className="App">
-      <AddContext.Provider value={{addCart,cart,setQty,qty,total}}>
+      <AddContext.Provider value={{addCart,remove,cart,setQty,qty,total}}>
        <Header></Header>
       <Routes>
         <Route index element={<Categorylist></Categorylist>}></Route>

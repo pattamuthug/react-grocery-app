@@ -1,12 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./CartItems.css";
+import { useContext } from "react";
+import AddContext from "../../Context";
 function CartItems(props) {
+
+    const remove = useContext(AddContext).remove
+
     const  save = (props.offer / 100) * (props.price);
            const saveround = Math.round(save);
     const offerprice = (props.price) - (saveround);
     const [count,setCount] = useState(1)
     // useEffect(()=>{
     //     setCount(count+1)
+    // },[count])
+    // useEffect(()=>{
+    //     props.arr(10)
     // },[count])
 
 return(<>
@@ -30,6 +38,8 @@ return(<>
                      <button onClick={()=>{
                          if(count>1){
                              setCount(count-1)
+                         }else{
+                            remove(props.name)
                          }
                      }
                       

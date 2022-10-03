@@ -15,25 +15,25 @@ function Fruitslist() {
             return false
         })
             .then((data) => {
+                data.forEach((item) => {
+                    item.finalprice = parseInt(item.price-(Math.round((item.offer / 100) * (item.price))))
+                });
                 setFruitslist(data)
             })
             
     }, []);
-    const ascenOrder=(event)=>{
-        event.preventDefault();
-        // const ascenArr = productsList.sort((a,b)=>{
-        //     return (a.offer - b.offer);
-        // });
-        setFruitslist(...(productsList.sort((a,b)=>{
-            return (a.offer - b.offer);
-        })) );
+    console.log(productsList);
+    const ascenOrder=()=>{
+      const ascenArr = productsList.sort((a,b)=>{
+        return (a.finalprice - b.finalprice);
+    });
+    setFruitslist([...ascenArr]);
     } 
-    const descenOrder=(event)=>{
-        event.preventDefault()
+    const descenOrder=()=>{
         const descenArr = productsList.sort((a,b)=>{
-            return (b.offer - a.offer);
+            return (b.finalprice - a.finalprice);
         });
-        setFruitslist(...descenArr);
+        setFruitslist([...descenArr]);
     } 
    
     
